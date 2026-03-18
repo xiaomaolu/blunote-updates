@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.3/Blunote-0.1.3-arm64.dmg",
-  "notes": "Desktop 0.1.3 test release for updater verification."
+  "version": "0.1.4",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.4/Blunote-0.1.4-arm64.dmg",
+  "notes": "Fix WebDAV backup import tag conflicts."
 }
