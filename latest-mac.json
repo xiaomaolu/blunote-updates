@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.5/Blunote-0.1.5-arm64.dmg",
-  "notes": "Make WebDAV snapshot restore idempotent for tags, folders, notes, and comments."
+  "version": "0.1.6",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.6/Blunote-0.1.6-arm64.dmg",
+  "notes": "Allow null folder parents in folder API validation."
 }
