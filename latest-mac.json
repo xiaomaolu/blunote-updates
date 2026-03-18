@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.1/Blunote-0.1.1-arm64.dmg",
-  "notes": "Desktop fixes, editor zoom restore, and platform-aware update handling."
+  "version": "0.1.2",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.2/Blunote-0.1.2-arm64.dmg",
+  "notes": "Canvas doc embed export fix, nested folders, demo sync mock fixes, WebDAV timeout handling, and import progress UI."
 }
