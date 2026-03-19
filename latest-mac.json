@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.7/Blunote-0.1.7-arm64.dmg",
-  "notes": "Fix note-tag restore conflicts during WebDAV backup import."
+  "version": "0.1.8",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.8/Blunote-0.1.8-arm64.dmg",
+  "notes": "Add link note UI support and tighten snapshot restore validation."
 }
