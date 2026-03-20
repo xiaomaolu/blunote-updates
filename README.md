@@ -48,5 +48,5 @@ https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-win.json
 
 ## Current source build
 
-- Source branch: `codex/mobile-foundation`
-- Source commit: `6ac763a`
+- Source branch: `master`
+- Source commit: `bc055f1`

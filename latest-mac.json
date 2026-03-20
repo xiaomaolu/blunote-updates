@@ -1,5 +1,5 @@
 {
   "version": "0.1.8",
   "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.8/Blunote-0.1.8-arm64.dmg",
-  "notes": "Add link note UI support and tighten snapshot restore validation."
+  "notes": "Add AI mailbox with daily letters, local history, export/save-to-note actions, wider agent workspace actions, and improved canvas generation."
 }
