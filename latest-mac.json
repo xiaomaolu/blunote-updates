@@ -1,5 +1,5 @@
 {
-  "version": "0.1.9",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.9/Blunote-0.1.9-arm64.dmg",
-  "notes": "Add AI mailbox with daily letters, local history, export/save-to-note actions, wider agent workspace actions, and improved canvas generation."
+  "version": "0.1.10",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.10/Blunote-0.1.10-arm64.dmg",
+  "notes": "Polish AI dock workflows, add clear-chat and long-task continuation, improve note multi-select/archive, and tighten editor block controls."
 }
