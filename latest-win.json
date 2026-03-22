@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.1/Blunote-Setup-0.1.1.exe",
-  "notes": "Desktop fixes, editor zoom restore, and platform-aware update handling."
+  "version": "0.1.8",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.8/Blunote-Setup-0.1.8.exe",
+  "notes": "AI dock refinements, long-form workflow updates, and desktop packaging fixes."
 }
