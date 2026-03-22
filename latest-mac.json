@@ -1,5 +1,5 @@
 {
-  "version": "0.1.10",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.10/Blunote-0.1.10-arm64.dmg",
+  "version": "0.1.11",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.11/Blunote-0.1.11-arm64.dmg",
   "notes": "Polish AI dock workflows, add clear-chat and long-task continuation, improve note multi-select/archive, and tighten editor block controls."
 }
