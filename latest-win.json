@@ -1,5 +1,5 @@
 {
-  "version": "0.1.13",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.13/Blunote.Setup.0.1.13.exe",
-  "notes": "Fix AI provider preset selection and icon mapping, and ship the 0.1.13 desktop build."
+  "version": "0.1.14",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.14/Blunote.Setup.0.1.14.exe",
+  "notes": "Polish AI dock workflows, add clear-chat and long-task continuation, improve note multi-select/archive, and tighten editor block controls."
 }
