@@ -1,5 +1,5 @@
 {
-  "version": "0.1.15",
-  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote.Setup.0.1.15.exe",
-  "notes": "Ship the 0.1.15 desktop build with tighter chat spacing, compact image and link previews, click-to-zoom images, richer embeds, document outline, and export improvements."
+  "version": "0.1.16",
+  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote.Setup.0.1.16.exe",
+  "notes": "Ship the 0.1.16 desktop build with local space switching, a new space hub, smaller installer size, and polished space management flows."
 }
