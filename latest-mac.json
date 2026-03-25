@@ -1,5 +1,5 @@
 {
-  "version": "0.1.16",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.16/Blunote-0.1.16-arm64.dmg",
-  "notes": "Release 0.1.16"
+  "version": "0.1.17",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.17/Blunote-0.1.17-arm64.dmg",
+  "notes": "Fix mac desktop packaging so the bundled Prisma runtime starts correctly on Apple Silicon."
 }
