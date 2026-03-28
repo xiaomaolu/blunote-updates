@@ -1,52 +1,58 @@
 # Blunote Updates
 
-Public update feed for the private Blunote app.
+Public update feed for the Blunote desktop app.
 
-This repository is meant to stay public so desktop clients can fetch update
-manifests without authentication.
+This repository stays public so desktop clients can fetch update manifests and
+installer files without authentication.
 
 ## Files
 
 - `latest-mac.json`: macOS update manifest
 - `latest-win.json`: Windows update manifest
+- platform installers referenced by the latest manifests
 
-## Manifest format
+## Manifest compatibility contract
+
+Older desktop clients are strict. To keep online updates backward compatible,
+each manifest must follow these rules:
+
+- UTF-8 without BOM
+- plain JSON object only
+- top-level keys must stay: `version`, `url`, `notes`
+- no comments, no trailing commas, no extra wrapper fields
+- keep URLs stable and absolute
+
+Recommended format:
 
 ```json
-{
-  "version": "0.1.1",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.1/Blunote-0.1.1-arm64.dmg",
-  "notes": "Release notes"
-}
+{"version":"0.1.19","url":"https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/Blunote.Setup.0.1.19.exe","notes":"Release notes"}
 ```
 
-## App URLs
+## Manifest URLs
 
-macOS:
+Preferred CDN endpoints:
 
-```text
-https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-mac.json
-```
+- macOS: `https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/latest-mac.json`
+- Windows: `https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/latest-win.json`
 
-Windows:
+Raw GitHub also works as a fallback, but jsDelivr is the preferred public feed.
 
-```text
-https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-win.json
-```
+## Retention policy
+
+This repository is a file host, so seeing both `0.1.15` and `0.1.16` is not a
+logic bug by itself. Historical installers may remain for rollback/manual
+recovery.
+
+Going forward, keep it tidy:
+
+- keep the latest stable installer for each platform
+- keep one previous stable installer for rollback
+- remove older superseded installers after a newer release is verified
 
 ## Release workflow
 
-1. Create a public GitHub repo named `blunote-updates`.
-2. Push this directory to that repo.
-3. Create a GitHub Release tag such as `v0.1.1`.
-4. Upload release assets:
-   - `Blunote-0.1.1-arm64.dmg`
-   - `Blunote-0.1.1-arm64-mac.zip`
-   - `Blunote-Setup-0.1.1.exe` if publishing Windows
-5. Update `latest-mac.json` and `latest-win.json` to point to the release asset URLs.
-6. Commit and push the updated manifest files.
-
-## Current source build
-
-- Source branch: `master`
-- Source commit: `bc055f1`
+1. Build the desktop installer.
+2. Upload the new installer files into this repo.
+3. Update `latest-mac.json` or `latest-win.json`.
+4. Verify the manifest bytes are BOM-free.
+5. Commit and push.

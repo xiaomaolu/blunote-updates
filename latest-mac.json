@@ -1,5 +1,1 @@
-{
-  "version": "0.1.18",
-  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote-0.1.18-arm64.dmg",
-  "notes": "Improve document editor scrolling stability, cursor retention, compact header motion, and link insertion behavior on macOS."
-}
+{"version":"0.1.18","url":"https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/Blunote-0.1.18-arm64.dmg","notes":"Improve document editor scrolling stability, cursor retention, compact header motion, and link insertion behavior on macOS."}
