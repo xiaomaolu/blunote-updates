@@ -49,6 +49,11 @@ Going forward, keep it tidy:
 - keep one previous stable installer for rollback
 - remove older superseded installers after a newer release is verified
 
+Version numbers are global product versions, but platform packaging can skip a
+version. For example, Windows currently keeps `0.1.19` and `0.1.16` because
+`0.1.17` and `0.1.18` were not published as Windows update packages in this
+repo, while macOS has its own separate latest package history.
+
 ## Release workflow
 
 1. Build the desktop installer.
