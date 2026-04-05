@@ -25,7 +25,7 @@ each manifest must follow these rules:
 Recommended format:
 
 ```json
-{"version":"0.1.21","url":"https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.21.exe","notes":"Release notes"}
+{"version":"0.1.21","url":"https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/Blunote.Setup.0.1.21.exe","notes":"Release notes"}
 ```
 
 ## Manifest URLs
@@ -40,6 +40,7 @@ Raw GitHub also works as a fallback, but jsDelivr is the preferred public feed.
 Current published Windows example:
 
 - `https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-win.json`
+- installer payload should prefer jsDelivr CDN URLs for older Windows clients
 
 ## Retention policy
 
