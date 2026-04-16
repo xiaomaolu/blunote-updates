@@ -25,7 +25,7 @@ each manifest must follow these rules:
 Recommended format:
 
 ```json
-{"version":"0.1.21","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.21/Blunote.Setup.0.1.21.exe","notes":"Release notes"}
+{"version":"0.1.22","url":"https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.22.exe","notes":"Release notes"}
 ```
 
 ## Manifest URLs
