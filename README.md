@@ -1,68 +1,70 @@
-# Blunote Updates
+﻿# Blunote Updates / Blunote 更新仓库
 
-Public update feed for the Blunote desktop app.
+Public update feed for Blunote installers and online update manifests.
 
-This repository stays public so desktop clients can fetch update manifests and
-installer files without authentication.
+Blunote 安装包下载与在线更新清单的公开仓库。
 
-## Files
+## Repository roles / 仓库定位
 
-- `latest-mac.json`: macOS update manifest
-- `latest-win.json`: Windows update manifest
-- platform installers referenced by the latest manifests
+- Main app repository (planned open source): https://github.com/xiaomaolu/blunote
+- iOS repository (private source): https://github.com/xiaomaolu/blunote-IOS
+- Public update feed and installer links: https://github.com/xiaomaolu/blunote-updates
 
-## Manifest compatibility contract
+- 主应用仓库（计划开源）：https://github.com/xiaomaolu/blunote
+- iOS 仓库（不开源）：https://github.com/xiaomaolu/blunote-IOS
+- 公开更新仓库（仅安装包链接与在线更新）：https://github.com/xiaomaolu/blunote-updates
 
-Older desktop clients are strict. To keep online updates backward compatible,
-each manifest must follow these rules:
+## What stays in this repo / 这个仓库保留什么
 
-- UTF-8 without BOM
-- plain JSON object only
-- top-level keys must stay: `version`, `url`, `notes`
-- no comments, no trailing commas, no extra wrapper fields
-- keep URLs stable and absolute
+- `latest-win.json`: Windows update manifest / Windows 在线更新清单
+- `latest-mac.json`: macOS update manifest / macOS 在线更新清单
+- lightweight docs about update compatibility / 更新兼容性说明文档
 
-Recommended format:
+Windows installers should be hosted as GitHub Release assets instead of committed into the repo tree.
+
+Windows 安装包应托管在 GitHub Releases 中，不再直接提交到仓库根目录。
+
+## Manifest compatibility contract / 清单兼容约定
+
+Older desktop clients are strict. To keep updates backward compatible:
+
+旧版桌面客户端对清单格式较严格。为了保证兼容性：
+
+- UTF-8 without BOM / 使用 UTF-8 且不要带 BOM
+- plain JSON object only / 只能是纯 JSON 对象
+- top-level keys must stay: `version`, `url`, `notes` / 顶层字段必须保持为 `version`、`url`、`notes`
+- no comments, no trailing commas, no wrapper fields / 不要注释、不要尾逗号、不要额外包裹层
+- keep URLs stable and absolute / URL 使用稳定的绝对地址
+
+Recommended Windows format / 推荐的 Windows 格式：
 
 ```json
-{"version":"0.1.22","url":"https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.22.exe","notes":"Release notes"}
+{"version":"0.1.23","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.23/Blunote.Setup.0.1.23.exe","notes":"EN: Sidebar tree cleanup, tag grouping, and sync improvements. | 中文：侧边栏树形结构优化、标签分组与同步体验改进。"}
 ```
 
-## Manifest URLs
+## Public manifest URLs / 公共清单地址
 
-Preferred CDN endpoints:
+Preferred CDN endpoints / 推荐 CDN 地址：
 
 - macOS: `https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/latest-mac.json`
 - Windows: `https://cdn.jsdelivr.net/gh/xiaomaolu/blunote-updates@main/latest-win.json`
 
-Raw GitHub also works as a fallback, but jsDelivr is the preferred public feed.
+Fallback raw endpoints / Raw 备用地址：
 
-Current published Windows example:
+- macOS: `https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-mac.json`
+- Windows: `https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-win.json`
 
-- `https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/latest-win.json`
-- installer payload can use GitHub Releases asset URLs when repo-file hosting causes compatibility issues
+## Release workflow / 发布流程
 
-## Retention policy
+1. Build the desktop installer. / 构建桌面安装包。
+2. Upload the installer as a GitHub Release asset. / 将安装包上传到 GitHub Release 资产。
+3. Update `latest-win.json` or `latest-mac.json`. / 更新 `latest-win.json` 或 `latest-mac.json`。
+4. Verify the manifest is BOM-free and backward compatible. / 确认清单无 BOM 且兼容旧客户端。
+5. Commit and push manifest/docs changes only. / 只提交清单与说明文档改动。
 
-This repository is a file host, so seeing both `0.1.15` and `0.1.16` is not a
-logic bug by itself. Historical installers may remain for rollback/manual
-recovery.
+## Retention policy / 保留策略
 
-Going forward, keep it tidy:
-
-- keep the latest stable installer for each platform
-- keep one previous stable installer for rollback
-- remove older superseded installers after a newer release is verified
-
-Version numbers are global product versions, but platform packaging can skip a
-version. For example, Windows currently keeps `0.1.19` and `0.1.16` because
-`0.1.17` and `0.1.18` were not published as Windows update packages in this
-repo, while macOS has its own separate latest package history.
-
-## Release workflow
-
-1. Build the desktop installer.
-2. Upload the new installer files into this repo.
-3. Update `latest-mac.json` or `latest-win.json`.
-4. Verify the manifest bytes are BOM-free.
-5. Commit and push.
+- Keep manifests in the repo. / 仓库中保留清单文件。
+- Keep release assets in GitHub Releases. / 安装包保留在 GitHub Releases。
+- Remove superseded Windows installers from the repo tree. / 旧的 Windows 安装包从仓库根目录移除。
+- Historical releases remain downloadable from the Releases page. / 历史版本可继续从 Releases 页面下载。
