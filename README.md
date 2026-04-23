@@ -20,9 +20,9 @@ Blunote 安装包下载与在线更新清单的公开仓库。
 - `latest-mac.json`: macOS update manifest / macOS 在线更新清单
 - lightweight docs about update compatibility / 更新兼容性说明文档
 
-Windows installers should be hosted as GitHub Release assets. macOS installers may be published either as Release assets or as Git LFS-backed direct-download files kept only for update distribution.
+Windows installers should be hosted as GitHub Release assets instead of committed into the repo tree.
 
-Windows 安装包应托管在 GitHub Releases 中。macOS 安装包可以使用 GitHub Releases，或仅为更新分发而保留为 Git LFS 直链文件。
+Windows 安装包应托管在 GitHub Releases 中，不再直接提交到仓库根目录。
 
 ## Manifest compatibility contract / 清单兼容约定
 
@@ -57,15 +57,14 @@ Fallback raw endpoints / Raw 备用地址：
 ## Release workflow / 发布流程
 
 1. Build the desktop installer. / 构建桌面安装包。
-2. Publish the installer to a stable direct-download URL. / 将安装包发布到稳定的直链地址。
+2. Upload the installer as a GitHub Release asset. / 将安装包上传到 GitHub Release 资产。
 3. Update `latest-win.json` or `latest-mac.json`. / 更新 `latest-win.json` 或 `latest-mac.json`。
 4. Verify the manifest is BOM-free and backward compatible. / 确认清单无 BOM 且兼容旧客户端。
-5. If macOS uses repo-hosted LFS files, update the tracked binaries and then push. / 如果 macOS 使用仓库内的 LFS 文件，还需要同步更新二进制并推送。
+5. Commit and push manifest/docs changes only. / 只提交清单与说明文档改动。
 
 ## Retention policy / 保留策略
 
 - Keep manifests in the repo. / 仓库中保留清单文件。
-- Keep Windows assets in GitHub Releases. / Windows 安装包保留在 GitHub Releases。
-- macOS assets may live in GitHub Releases or as repo-hosted LFS files referenced by the manifest. / macOS 安装包可以放在 GitHub Releases，或作为清单引用的仓库内 LFS 文件。
-- Remove superseded installers from the repo tree when replaced. / 仓库根目录中的旧安装包在替换后应移除。
+- Keep release assets in GitHub Releases. / 安装包保留在 GitHub Releases。
+- Remove superseded Windows installers from the repo tree. / 旧的 Windows 安装包从仓库根目录移除。
 - Historical releases remain downloadable from the Releases page. / 历史版本可继续从 Releases 页面下载。
