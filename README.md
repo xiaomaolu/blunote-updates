@@ -39,7 +39,7 @@ Older desktop clients are strict. To keep updates backward compatible:
 Recommended Windows format / 推荐的 Windows 格式：
 
 ```json
-{"version":"0.1.23","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.23/Blunote.Setup.0.1.23.exe","notes":"EN: Sidebar tree cleanup, tag grouping, and sync improvements. | 中文：侧边栏树形结构优化、标签分组与同步体验改进。"}
+{"version":"0.1.24","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.24/Blunote.Setup.0.1.24.exe","notes":"EN: WebDAV restore cleanup, Web Clipper controls, image menu upgrades, and timeline polish. | 中文：WebDAV 恢复整理、Web Clipper 控制、图片菜单增强与时间线优化。"}
 ```
 
 ## Public manifest URLs / 公共清单地址
