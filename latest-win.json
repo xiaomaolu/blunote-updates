@@ -1,1 +1,5 @@
-{"version":"0.1.24","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.24/Blunote.Setup.0.1.24.exe","notes":"EN: WebDAV restore cleanup, Web Clipper controls, image menu upgrades, and timeline polish. | 中文：WebDAV 恢复整理、Web Clipper 控制、图片菜单增强与时间线优化。"}
+{
+  "version": "0.1.25",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.25.exe",
+  "notes": "EN: Adds Google Drive login updates and iOS transfer export with JSON archive import support. | 中文：新增 Google Drive 登录更新，并加入同步到 iOS 版的 JSON 空间导出与手机传输。"
+}
