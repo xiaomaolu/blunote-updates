@@ -1,5 +1,5 @@
 {
-  "version": "0.1.25",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.25.exe",
-  "notes": "EN: Adds Google Drive login updates and iOS transfer export with JSON archive import support. | 中文：新增 Google Drive 登录更新，并加入同步到 iOS 版的 JSON 空间导出与手机传输。"
+  "version": "0.1.26",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.26.exe",
+  "notes": "EN: Publishes the latest desktop build with dashboard stability and storage-safety updates. | 中文：发布最新桌面版，包含仪表盘稳定性与本地存储安全更新。"
 }
