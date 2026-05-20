@@ -1,5 +1,5 @@
 {
-  "version": "0.1.26",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.26.exe",
-  "notes": "EN: Publishes the latest desktop build with dashboard stability and storage-safety updates. | 中文：发布最新桌面版，包含仪表盘稳定性与本地存储安全更新。"
+  "version": "0.1.27",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.27.exe",
+  "notes": "EN: Improves whiteboard image insertion, object filters, text case actions, and denser feed/gallery/list views."
 }
