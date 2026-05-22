@@ -1,5 +1,5 @@
 {
-  "version": "0.1.27",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.27.exe",
-  "notes": "EN: Improves whiteboard image insertion, object filters, text case actions, and denser feed/gallery/list views."
+  "version": "0.1.28",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote.Setup.0.1.28.exe",
+  "notes": "EN: Ships the refined desktop UI, draggable sidebar layout, editor find/replace, icon polish, and smaller installer assets. | 中文：发布桌面端界面精修、可拖动侧栏、编辑器查找替换、图标视觉优化与安装包体积优化。"
 }
