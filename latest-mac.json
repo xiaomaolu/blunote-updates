@@ -1,1 +1,5 @@
-{"version":"0.1.30","url":"https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote-Setup-0.1.30.dmg","notes":"EN: Fixes custom icon library retention and icon picker Chinese text, while keeping uploaded icons from replacing older saved icons. | 中文：修复自定义图标库保留逻辑和图标选择器中文文案，避免新上传图标挤掉旧图标。"}
+{
+  "version": "0.1.41",
+  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote-Setup-0.1.41.dmg",
+  "notes": "Fix installed builds inheriting stale portable build-output workspaces, preserve recovered local data selection, and keep the 0.1.40 UI polish."
+}
