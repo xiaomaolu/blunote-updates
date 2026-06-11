@@ -1,5 +1,5 @@
 {
-  "version": "0.1.40",
-  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote.Setup.0.1.40.exe",
-  "notes": "Ship the 0.1.40 desktop build with object content fixes, polished link cards, unified expand controls, improved local font/icon handling, and updated quick-note/calendar workflows."
+  "version": "0.1.41",
+  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote.Setup.0.1.41.exe",
+  "notes": "Fix installed builds inheriting stale portable build-output workspaces, preserve recovered local data selection, and keep the 0.1.40 UI polish."
 }
