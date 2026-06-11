@@ -1,1 +1,5 @@
-{"version":"0.1.30","url":"https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.30/Blunote-Setup-0.1.30.exe","notes":"EN: Fixes custom icon library retention and icon picker Chinese text, while keeping uploaded icons from replacing older saved icons. | \u4e2d\u6587\uff1a\u4fee\u590d\u81ea\u5b9a\u4e49\u56fe\u6807\u5e93\u4fdd\u7559\u903b\u8f91\u548c\u56fe\u6807\u9009\u62e9\u5668\u4e2d\u6587\u6587\u6848\uff0c\u907f\u514d\u65b0\u4e0a\u4f20\u56fe\u6807\u6324\u6389\u65e7\u56fe\u6807\u3002"}
+{
+  "version": "0.1.40",
+  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote.Setup.0.1.40.exe",
+  "notes": "Ship the 0.1.40 desktop build with object content fixes, polished link cards, unified expand controls, improved local font/icon handling, and updated quick-note/calendar workflows."
+}
