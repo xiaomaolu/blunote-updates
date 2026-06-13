@@ -1,5 +1,10 @@
 {
-  "version": "0.1.44",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.44.exe",
-  "notes": "Uses the fixed Windows update channel. Installer launch now uses shell.openPath with a cmd start fallback, and invalid tiny downloads are rejected before installation."
+  "version": "0.1.45",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.45.exe",
+  "manualUrl": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.45.exe",
+  "sha256": "fca50add93627ab14e4de36ffce9b87e7c75a23781e295bb99f5b63556e55877",
+  "size": 84205977,
+  "minUpdaterVersion": "0.1.44",
+  "channel": "stable-v2",
+  "notes": "Adds resilient Windows update recovery: checksum and size validation, manual update links, downloaded installer reveal/install actions, and a minimum updater version guard."
 }
