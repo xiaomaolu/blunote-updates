@@ -1,0 +1,5 @@
+{
+  "version": "0.1.44",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.44.exe",
+  "notes": "Uses the fixed Windows update channel. Installer launch now uses shell.openPath with a cmd start fallback, and invalid tiny downloads are rejected before installation."
+}

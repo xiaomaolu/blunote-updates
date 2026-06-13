@@ -1,5 +1,5 @@
-﻿{
-  "version": "0.1.43",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.43.exe",
-  "notes": "Fixes Windows online update installer launch, switches the default update manifest to raw GitHub, and rejects invalid tiny update downloads before installation."
+{
+  "version": "0.1.41",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.44.exe",
+  "notes": "Legacy Windows update channel is paused to avoid the old installer launch bug. Please install the latest Blunote Windows package manually once."
 }
