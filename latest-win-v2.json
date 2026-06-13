@@ -1,10 +1,10 @@
 {
-  "version": "0.1.45",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.45.exe",
-  "manualUrl": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.45.exe",
-  "sha256": "fca50add93627ab14e4de36ffce9b87e7c75a23781e295bb99f5b63556e55877",
-  "size": 84205977,
+  "version": "0.1.46",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.46.exe",
+  "manualUrl": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.46.exe",
+  "sha256": "e10d347533e64499e46ffb8b949dae7d07776c20ff2b99fd77f12f4cbb1d7f5a",
+  "size": 84206430,
   "minUpdaterVersion": "0.1.44",
   "channel": "stable-v2",
-  "notes": "Adds resilient Windows update recovery: checksum and size validation, manual update links, downloaded installer reveal/install actions, and a minimum updater version guard."
+  "notes": "Makes Windows updates resilient to incorrect custom update URLs by using built-in stable fallback manifests, adds a restore-default update source action, and keeps checksum/size validation."
 }
