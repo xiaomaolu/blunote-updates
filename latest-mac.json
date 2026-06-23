@@ -1,5 +1,8 @@
 {
-  "version": "0.1.41",
-  "url": "https://github.com/xiaomaolu/blunote-updates/raw/main/Blunote-Setup-0.1.41.dmg",
-  "notes": "Fix installed builds inheriting stale portable build-output workspaces, preserve recovered local data selection, and keep the 0.1.40 UI polish."
+  "version": "0.1.47",
+  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.47.dmg",
+  "manualUrl": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.47.dmg",
+  "sha256": "0dca821667a0f9f6e16fcf01cf890ed6937c3fdb1e8b0fbd488273e8c1364ee4",
+  "size": 100504550,
+  "notes": "Update the macOS desktop package to Blunote 0.1.47 with the latest object asset and type grid fixes."
 }
