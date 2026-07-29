@@ -1,10 +1,10 @@
 {
-  "version": "0.1.47",
-  "url": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.47.exe",
-  "manualUrl": "https://raw.githubusercontent.com/xiaomaolu/blunote-updates/main/Blunote-Setup-0.1.47.exe",
-  "sha256": "f222eba63d131c331a5aa3d2c8671c8a60c98f706b82efbf5ee94f2a2b5d7670",
-  "size": 84206454,
+  "version": "0.1.50",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.50/Blunote-Setup-0.1.50.exe",
+  "manualUrl": "https://github.com/xiaomaolu/blunote-updates/releases/tag/v0.1.50",
+  "sha256": "a150550798d3a572492ba7445dd7ebe86afc417cac278f3f803222f01821ef95",
+  "size": 86535647,
   "minUpdaterVersion": "0.1.44",
   "channel": "stable-v2",
-  "notes": "Simplifies the desktop update settings UI for normal users while keeping advanced update source controls available behind a compact disclosure."
+  "notes": "Improves SQLite startup recovery, autosave reliability, modular service boundaries, Google Drive backups, and snapshot restore."
 }
