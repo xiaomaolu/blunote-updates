@@ -1,10 +1,15 @@
 {
-  "version": "0.1.51",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.51/Blunote-Setup-0.1.51.exe",
-  "manualUrl": "https://github.com/xiaomaolu/blunote-updates/releases/tag/v0.1.51",
-  "sha256": "64fba760eb851e6f469c50c19cd27b346fbddd4f39725f370b9b67bbe7c6607f",
-  "size": 86537971,
+  "version": "0.1.52",
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.52/Blunote-Setup-0.1.52.exe",
+  "manualUrl": "https://github.com/xiaomaolu/blunote-updates/releases/tag/v0.1.52",
+  "sha256": "81ca69d63eee0f32c5b0b2eb403e86fbb3d389f3c55c94f6371f5fc5c19321ac",
+  "size": 84343816,
   "minUpdaterVersion": "0.1.44",
   "channel": "stable-v2",
-  "notes": "Hardens online updates with HTTPS-only delivery, request timeouts, atomic partial downloads, SHA-256 and size verification, resilient installer handoff, and automated release publishing."
+  "notes": "修复 Google Drive 登录授权，并增强桌面版 OAuth 凭据与发布校验。",
+  "highlights": [
+    "修复 Google Drive 登录与备份连接",
+    "内置匹配的桌面 OAuth 配置",
+    "增强凭据隔离和发布前校验"
+  ]
 }
