@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.1",
-  "versionCode": 6,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.1-preview/Blunote-0.5.1-preview.apk",
-  "size": 58296107,
-  "md5": "505382423be891e5703bc5413107ba1f",
-  "sha256": "637234cf5b6b654e6bcc064411b5d4d7b3e5fea986bd17fcb9ad7bd915c7e76b",
+  "version": "0.5.2",
+  "versionCode": 7,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.2-preview/Blunote-0.5.2-preview.apk",
+  "size": 58308907,
+  "md5": "19b02f15b46686e8c40f33d5284cade9",
+  "sha256": "7731e336fb5d641f2956bf69a5eac42073d5ec9dce5bde471b0a87d9522ec0cf",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "修复检查更新显示 aborted：新增 GitHub API、原始文件及独立 CDN 多源检查，单源超时不再导致整次失败；优先选择成功响应中的最高构建版本，避免 CDN 缓存回退；失败后 5 分钟可自动重试，手动检查不受冷却限制；网络异常显示明确中文提示。APK 下载仍使用 GitHub。请先同步笔记，直接覆盖安装，不要卸载旧版。"
+  "notes": "补强笔记、快记、文件夹、标签文字导航与折叠屏布局。新增对象数据库入口：内置/自定义分类、搜索分页、属性查看、新建文档类条目和正文编辑；图片等对象打开来源笔记。属性与字段配置暂只读，数据库视图配置请在网页端管理；共享密钥暂不支持对象视图。保留 0.5.1 更新检查修复。请先确认笔记已同步，直接覆盖安装，不要卸载旧版。"
 }
