@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "channel": "android-preview",
+  "packageId": "com.blunote.app.preview",
+  "version": "0.5.0",
+  "versionCode": 5,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.0-preview/Blunote-0.5.0-preview.apk",
+  "size": 58293523,
+  "md5": "80c7f35b538083710576276282467fb0",
+  "sha256": "56bc35052e7d281f446c0c215c36667d6e1cb94bc5a5915ded81e706020061c6",
+  "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+  "notes": "新增折叠屏三列工作区与可收起列表；笔记、快记、文件夹、标签同级导航；新增笔记日历；设置适配宽窄屏并支持手动同步；二级编辑工具改为轻玻璃浮层，选中文字时格式栏移至底部。预览版：系统选区菜单、软键盘及折叠姿态仍需真机反馈。请先同步草稿，直接覆盖安装，不要卸载旧版。"
+}
