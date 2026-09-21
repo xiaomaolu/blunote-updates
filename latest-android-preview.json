@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.3",
-  "versionCode": 8,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.3-preview/Blunote-0.5.3-preview.apk",
-  "size": 58334483,
-  "md5": "5fd7eea0d23e2bf1f1627aa92b26cd5d",
-  "sha256": "4ced9aaa42414019a551fa97c8a2eb061c87aec054e7f5de21cbfef1da145b21",
+  "version": "0.5.4",
+  "versionCode": 9,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.4-preview/Blunote-0.5.4-preview.apk",
+  "size": 58355695,
+  "md5": "8d8c8a4c894f4424247a21b21c5eab59",
+  "sha256": "d6eddc9adc25c4986e6c8487393511811719e4331270ff391494dca0c001da73",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "新增笔记与对象属性编辑、置顶、归档恢复、文件夹与标签管理、对象多条件筛选和排序、冲突历史查看恢复、纯文本分享。属性保存加入版本检查，保留其他设备的并发修改；配套后端已更新。44 项测试及类型检查通过，真机覆盖安装与折叠屏交互尚待验证。请先确认笔记已同步，直接覆盖安装，不要卸载旧版。"
+  "notes": "增加应用内命名创建笔记和快记、本机图片压缩插入、更多富文本格式、文档永久删除确认、紧凑图标导航，以及对象列表/卡片/表格视图。优化本地列表缓存、后台刷新及移动端长按操作。图片为压缩嵌入，删除暂无回收站。本版通过 50 项测试及类型检查，尚未完成真机回归。"
 }
