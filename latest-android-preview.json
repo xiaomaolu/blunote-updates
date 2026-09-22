@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.4",
-  "versionCode": 9,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.4-preview/Blunote-0.5.4-preview.apk",
-  "size": 58355695,
-  "md5": "8d8c8a4c894f4424247a21b21c5eab59",
-  "sha256": "d6eddc9adc25c4986e6c8487393511811719e4331270ff391494dca0c001da73",
+  "version": "0.5.5",
+  "versionCode": 10,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.5-preview/Blunote-0.5.5-preview.apk",
+  "size": 58527110,
+  "md5": "98758d8971c75ee4a3685ea8b3ef64c5",
+  "sha256": "4dfd63f00d768ce7fa06cac10e964a80bd4891b0cb351493bce1d4df391791b8",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "增加应用内命名创建笔记和快记、本机图片压缩插入、更多富文本格式、文档永久删除确认、紧凑图标导航，以及对象列表/卡片/表格视图。优化本地列表缓存、后台刷新及移动端长按操作。图片为压缩嵌入，删除暂无回收站。本版通过 50 项测试及类型检查，尚未完成真机回归。"
+  "notes": "适配折叠屏桌面半折叠姿态；优化宽屏主从布局、文件夹与标签三列网格、对象卡片和紧凑表格、日历全屏；搜索与操作弹窗更适合键盘输入，设置界面密度优化。通过 54 项测试及类型检查；折叠姿态和键盘仍建议真机验证。"
 }
