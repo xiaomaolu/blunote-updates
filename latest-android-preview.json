@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.5",
-  "versionCode": 10,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.5-preview/Blunote-0.5.5-preview.apk",
-  "size": 58527110,
-  "md5": "98758d8971c75ee4a3685ea8b3ef64c5",
-  "sha256": "4dfd63f00d768ce7fa06cac10e964a80bd4891b0cb351493bce1d4df391791b8",
+  "version": "0.5.6",
+  "versionCode": 11,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.6-preview/Blunote-0.5.6-preview.apk",
+  "size": 58535970,
+  "md5": "88e18a406118b091d8de630ce10d0e4f",
+  "sha256": "c1ad835f980f3123304b10dd4897b58a6c44557e82894a9a5787d69248195783",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "适配折叠屏桌面半折叠姿态；优化宽屏主从布局、文件夹与标签三列网格、对象卡片和紧凑表格、日历全屏；搜索与操作弹窗更适合键盘输入，设置界面密度优化。通过 54 项测试及类型检查；折叠姿态和键盘仍建议真机验证。"
+  "notes": "重做笔记首页与折叠屏自适应布局：响应式卡片、文件夹/标签快捷入口、可拖拽侧栏、半折叠底部功能区和玻璃导航；新增默认新建类型与快记常驻输入，修复卡片选中、字号、底栏状态及滑动置顶/删除操作层。通过 54 项测试和浏览器交互检查；折叠姿态、键盘与应用内升级仍建议真机验证。"
 }
