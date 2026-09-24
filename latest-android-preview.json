@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.7",
-  "versionCode": 12,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.7-preview/Blunote-0.5.7-preview.apk",
-  "size": 58569735,
-  "md5": "5013ee7d2a803d1502b57b3da244ed7e",
-  "sha256": "742ef22a81348dd89d5f507f615603fa0cca8e59b78b4612c4203fa45e6c953d",
+  "version": "0.5.8",
+  "versionCode": 13,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.8-preview/Blunote-0.5.8-preview.apk",
+  "size": 58601199,
+  "md5": "e45af3e12cb80bae8b637721f97620ea",
+  "sha256": "d8b36576b53ff0eb221cda165dccfc716a17eec0ed8d72af4af2a77b8200429f",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "优化折叠屏笔记布局：外屏与竖向内屏双列、展开内屏三列、桌面半折叠按宽度三至四列；收紧首页留白，统一侧栏图标与选中态，居中底栏，并将编辑工具栏改为浅色半透明。已通过 55 项测试与浏览器预览；原位升级和折叠姿态仍需真机验证。"
+  "notes": "编辑器颜色面板优化：自由取色改为应用内色板与色相滑杆，统一文字和背景颜色面板；收紧手机弹窗尺寸，适配折叠屏矮视口和软键盘可见区域，保持清除与应用按钮可用。"
 }
