@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.5.8",
-  "versionCode": 13,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.8-preview/Blunote-0.5.8-preview.apk",
-  "size": 58601199,
-  "md5": "e45af3e12cb80bae8b637721f97620ea",
-  "sha256": "d8b36576b53ff0eb221cda165dccfc716a17eec0ed8d72af4af2a77b8200429f",
+  "version": "0.5.9",
+  "versionCode": 14,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.5.9-preview/Blunote-0.5.9-preview.apk",
+  "size": 63620319,
+  "md5": "2465d8f89797f4f48eff77ba0e719629",
+  "sha256": "95510a5b667055d82d2037e3d24102a351cf5f7565e911c9b74eae842c41a030",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "编辑器颜色面板优化：自由取色改为应用内色板与色相滑杆，统一文字和背景颜色面板；收紧手机弹窗尺寸，适配折叠屏矮视口和软键盘可见区域，保持清除与应用按钮可用。"
+  "notes": "# Blunote Android 0.5.9 Preview\n\n- 动态流升级为随内容区域宽度自适应的 1–4 列瀑布流，卡片按正文长度错落排列，支持展开正文、分页和返回阅读位置。\n- 完善数据库的列表、卡片、表格、时间线、动态流及看板视图，增加视图设置和快捷属性操作。\n- 新增移动端画布编辑与阅读导航，优化图形、文字、画笔、链接、附件入口和对象缩放操作。\n- 首页“全部笔记”纳入画布，可选择显示文档、快记、画布；统一筛选入口、开关、复选框与内容类型图标。\n\n预览限制：本轮未完成 Android 真机覆盖安装、系统键盘及折叠姿态验证。画布本机图片仍为压缩嵌入；视频仅支持链接卡片，不含本机视频上传。请覆盖安装，不要卸载旧版，以免清除本机草稿。\n"
 }
