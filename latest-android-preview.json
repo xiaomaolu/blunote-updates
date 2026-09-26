@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.0",
-  "versionCode": 15,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.0-preview/Blunote-0.6.0-preview.apk",
-  "size": 63627787,
-  "md5": "f40b59a74ab2d45a015104fb7b31626f",
-  "sha256": "648e7f56afcb9ac66ebb6e7b97fc819ad83cce3f599a7b4d3b4451354e0a7f4d",
+  "version": "0.6.1",
+  "versionCode": 16,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.1-preview/Blunote-0.6.1-preview.apk",
+  "size": 63633543,
+  "md5": "6bc1a0829730ba5f8e26da6113dc5556",
+  "sha256": "baaad49ece999368fc62d5c7db58944a1ee8fb39cbec297145a580c12e868012",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.0 Preview\n\n- 接入新版界面：精简首页浏览与分类入口，日历、对象库与设置沿用统一视觉样式。\n- 统一卡片类型标签和日期对齐；笔记、浏览、数据库操作改为紧凑图标菜单，删除操作独立分组。\n- 待办支持跨首页、快记、日历和对象视图直接勾选及 8 秒撤销；快捷创建待办。\n- 对象分类使用三列网格，筛选与排序合并入口，动态流随内容宽度自适应列数。\n- 底部导航采用轻量玻璃效果，默认隐藏文字，可在设置中开启；不支持模糊的设备使用清晰底色。\n- 编辑工具栏左侧可横向滑动，撤销 / 重做固定在右侧并以分割线区分。\n\n预览版：尚未完成 Android 真机覆盖安装、系统键盘和折叠姿态验证。请覆盖安装，不要卸载旧版，以免丢失本机草稿。在线更新需要系统确认安装，不是静默热更新。\n"
+  "notes": "# Blunote Android 0.6.1 Preview\n\n- 修复首页“全部”遗漏文档的查询问题，更新首页缓存规则。\n- 修复首页网格卡片溢出与多余白底，按可用空间分配列宽。\n- 图片插入改为“本机图片 / 图片链接”两个紧凑入口。\n- 笔记操作采用统一图标菜单，新增当前正文字数与最后保存时间；未同步修改单独标记。\n- 日历新增日、周、月切换，日期范围及前后导航随视图变化。\n- 新建弹窗采用彩色图标与短标签，文件夹、标签作为次级入口。\n\n预览版：已通过类型检查、定向回归与本地浏览器检查，尚未完成 Android 真机覆盖安装、系统键盘与折叠姿态验证。请覆盖安装，不要卸载旧版，以免丢失本机草稿。在线更新需要系统确认安装，不是静默热更新。\n"
 }
