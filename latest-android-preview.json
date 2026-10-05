@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.2",
-  "versionCode": 17,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.2-preview/Blunote-0.6.2-preview.apk",
-  "size": 63667107,
-  "md5": "c0f22d7322c39ab91535422c98b88d9e",
-  "sha256": "51dac7a256b8f0f99e02af284024cd798d61b2c62383808288e5445db6f7f8cb",
+  "version": "0.6.3",
+  "versionCode": 18,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.3-preview/Blunote-0.6.3-preview.apk",
+  "size": 63679115,
+  "md5": "d7b93c3fd8cdb372b55414ba7d09ffcd",
+  "sha256": "2bd2ed95ea67169635b285e655d7e6d307cb8fc2f7c8b114421d4b7c170f989a",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.2 Preview\n\n- 统一字体层级、间距、圆角、图标和控件尺寸，保留暖灰与品牌蓝的整体风格。\n- 按钮、输入框、分段选择、开关和弹窗共用设计规范，统一选中、聚焦与禁用状态。\n- 优化笔记属性面板：固定标题与分类页签，调整表单对齐、分组和底部操作。\n- 编辑器与画布工具界面接入共享主题，不改动用户正文格式或图形颜色。\n- 首页空间名称支持下拉切换与导入空间，切换前检查未保存内容和待同步队列。\n\n预览版：尚未完成 Android 真机覆盖安装、系统键盘、放大字体与折叠姿态验证。本地浏览器预览曾出现编辑器未就绪提示，未确认是否影响真机。请覆盖安装，不要卸载旧版，以免丢失本机草稿。在线更新需要系统确认安装，不是静默热更新。\n"
+  "notes": "# Blunote Android 0.6.3 Preview\n\n- 浏览、卡片更多和笔记操作改为按钮附近的小浮动菜单，自动避开屏幕边界；长表单仍保留适合输入的面板。\n- 取消弹窗全屏模糊，增加轻遮罩、短进场和栏目切换过渡，按钮提供轻微按压反馈。\n- 优化按钮、字体、页签和菜单密度，保留实际触控范围；支持系统减少动态效果偏好。\n- 手机底部面板支持顶部下拉关闭，仍遵守未保存确认与忙碌禁用逻辑。\n- 保留笔记字数、更新时间及现有保存、同步与权限检查。\n\n本地浏览器的评论/设备模拟演示不包含在此 APK 中，不代表已上线真实协作功能。\n\n预览版：尚未完成 Android 真机覆盖安装、系统键盘、系统大字和浮层手势验证。请覆盖安装，不要卸载旧版，以免丢失本机草稿。更新下载后仍需由系统确认安装，不是静默热更新。\n"
 }
