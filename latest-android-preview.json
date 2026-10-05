@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.1",
-  "versionCode": 16,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.1-preview/Blunote-0.6.1-preview.apk",
-  "size": 63633543,
-  "md5": "6bc1a0829730ba5f8e26da6113dc5556",
-  "sha256": "baaad49ece999368fc62d5c7db58944a1ee8fb39cbec297145a580c12e868012",
+  "version": "0.6.2",
+  "versionCode": 17,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.2-preview/Blunote-0.6.2-preview.apk",
+  "size": 63667107,
+  "md5": "c0f22d7322c39ab91535422c98b88d9e",
+  "sha256": "51dac7a256b8f0f99e02af284024cd798d61b2c62383808288e5445db6f7f8cb",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.1 Preview\n\n- 修复首页“全部”遗漏文档的查询问题，更新首页缓存规则。\n- 修复首页网格卡片溢出与多余白底，按可用空间分配列宽。\n- 图片插入改为“本机图片 / 图片链接”两个紧凑入口。\n- 笔记操作采用统一图标菜单，新增当前正文字数与最后保存时间；未同步修改单独标记。\n- 日历新增日、周、月切换，日期范围及前后导航随视图变化。\n- 新建弹窗采用彩色图标与短标签，文件夹、标签作为次级入口。\n\n预览版：已通过类型检查、定向回归与本地浏览器检查，尚未完成 Android 真机覆盖安装、系统键盘与折叠姿态验证。请覆盖安装，不要卸载旧版，以免丢失本机草稿。在线更新需要系统确认安装，不是静默热更新。\n"
+  "notes": "# Blunote Android 0.6.2 Preview\n\n- 统一字体层级、间距、圆角、图标和控件尺寸，保留暖灰与品牌蓝的整体风格。\n- 按钮、输入框、分段选择、开关和弹窗共用设计规范，统一选中、聚焦与禁用状态。\n- 优化笔记属性面板：固定标题与分类页签，调整表单对齐、分组和底部操作。\n- 编辑器与画布工具界面接入共享主题，不改动用户正文格式或图形颜色。\n- 首页空间名称支持下拉切换与导入空间，切换前检查未保存内容和待同步队列。\n\n预览版：尚未完成 Android 真机覆盖安装、系统键盘、放大字体与折叠姿态验证。本地浏览器预览曾出现编辑器未就绪提示，未确认是否影响真机。请覆盖安装，不要卸载旧版，以免丢失本机草稿。在线更新需要系统确认安装，不是静默热更新。\n"
 }
