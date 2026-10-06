@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.3",
-  "versionCode": 18,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.3-preview/Blunote-0.6.3-preview.apk",
-  "size": 63679115,
-  "md5": "d7b93c3fd8cdb372b55414ba7d09ffcd",
-  "sha256": "2bd2ed95ea67169635b285e655d7e6d307cb8fc2f7c8b114421d4b7c170f989a",
+  "version": "0.6.4",
+  "versionCode": 19,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.4-preview/Blunote-0.6.4-preview.apk",
+  "size": 63702187,
+  "md5": "7e653eecc4701902c2793efadeff5ee0",
+  "sha256": "6dde3b6b736ba2abd279e7f4bf078b2cc6b8292ac09c46eb39e36776892fdc39",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.3 Preview\n\n- 浏览、卡片更多和笔记操作改为按钮附近的小浮动菜单，自动避开屏幕边界；长表单仍保留适合输入的面板。\n- 取消弹窗全屏模糊，增加轻遮罩、短进场和栏目切换过渡，按钮提供轻微按压反馈。\n- 优化按钮、字体、页签和菜单密度，保留实际触控范围；支持系统减少动态效果偏好。\n- 手机底部面板支持顶部下拉关闭，仍遵守未保存确认与忙碌禁用逻辑。\n- 保留笔记字数、更新时间及现有保存、同步与权限检查。\n\n本地浏览器的评论/设备模拟演示不包含在此 APK 中，不代表已上线真实协作功能。\n\n预览版：尚未完成 Android 真机覆盖安装、系统键盘、系统大字和浮层手势验证。请覆盖安装，不要卸载旧版，以免丢失本机草稿。更新下载后仍需由系统确认安装，不是静默热更新。\n"
+  "notes": "# Blunote Android 0.6.4 Preview\n\n- 原生编辑页新增「评论与设备」，接入已有评论接口，支持整篇评论、选中文字或选择段落引用、刷新和删除自己的评论。\n- 点击引用定位并高亮原文，点击「返回讨论」继续输入，保留草稿及页签；原文变化、删除或匹配有歧义时提示，不猜测跳转。\n- 设备页根据当前正文真实来源标记显示对应段落入口；混合来源、无来源标记明确说明，不模拟在线状态或完整编辑历史。\n- 评论草稿按空间与笔记保存，发送失败保留草稿且不自动重发；引用评论需等待正文同步成功，只读空间不可发送。\n- 评论支持手动刷新及面板打开期间的前台低频刷新，不代表实时消息推送。\n\n预览版验证边界：已完成代码测试、本地交互及原生构建检查；尚未完成真实账号 Android ↔ 网页双端联调、Android 真机覆盖安装和系统键盘验证。此次不部署后端。\n\n请覆盖安装，不要卸载旧版，以免丢失本机草稿。下载更新后仍需由 Android 系统确认安装，不是静默热更新。\n"
 }
