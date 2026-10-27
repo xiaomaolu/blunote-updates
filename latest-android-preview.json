@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.4",
-  "versionCode": 19,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.4-preview/Blunote-0.6.4-preview.apk",
-  "size": 63702187,
-  "md5": "7e653eecc4701902c2793efadeff5ee0",
-  "sha256": "6dde3b6b736ba2abd279e7f4bf078b2cc6b8292ac09c46eb39e36776892fdc39",
+  "version": "0.6.5",
+  "versionCode": 20,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.5-preview/Blunote-0.6.5-preview.apk",
+  "size": 63707999,
+  "md5": "fc4f052c050714c664323c0b0c500b34",
+  "sha256": "60124ce2244cb5ae5d3c122d510773dd9d1ac5846a9f2df7dd359195192009b7",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.4 Preview\n\n- 原生编辑页新增「评论与设备」，接入已有评论接口，支持整篇评论、选中文字或选择段落引用、刷新和删除自己的评论。\n- 点击引用定位并高亮原文，点击「返回讨论」继续输入，保留草稿及页签；原文变化、删除或匹配有歧义时提示，不猜测跳转。\n- 设备页根据当前正文真实来源标记显示对应段落入口；混合来源、无来源标记明确说明，不模拟在线状态或完整编辑历史。\n- 评论草稿按空间与笔记保存，发送失败保留草稿且不自动重发；引用评论需等待正文同步成功，只读空间不可发送。\n- 评论支持手动刷新及面板打开期间的前台低频刷新，不代表实时消息推送。\n\n预览版验证边界：已完成代码测试、本地交互及原生构建检查；尚未完成真实账号 Android ↔ 网页双端联调、Android 真机覆盖安装和系统键盘验证。此次不部署后端。\n\n请覆盖安装，不要卸载旧版，以免丢失本机草稿。下载更新后仍需由 Android 系统确认安装，不是静默热更新。\n"
+  "notes": "# Blunote Android 0.6.5 Preview\n\n- App 主题蓝统一为 #4FA4FF，蓝底按钮和选中态使用白字、白色图标，白底蓝字使用相同主蓝。\n- 统一首页分类、导航、日历、弹窗，以及编辑器和画布工具栏的主题色与状态样式。\n- 包含此前本地预览的宽屏侧栏、日历左右布局、快记布局与对象库紧凑排版调整。\n- 保留现有笔记、待办、评论与设备来源功能。\n\n本次为 Android 预览版更新。已完成类型检查、主题与更新流程测试、浏览器交互检查及原生构建；未完成 Android 真机覆盖安装验证。本次不包含独立整合分支的桌面导出 / Web 导入功能。\n\n请覆盖安装，不要卸载旧版，以保留本机草稿。下载后仍需在 Android 系统界面确认安装。\n"
 }
