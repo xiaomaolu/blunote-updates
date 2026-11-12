@@ -1,15 +1,15 @@
 {
-  "version": "0.1.52",
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/v0.1.52/Blunote-Setup-0.1.52.exe",
-  "manualUrl": "https://github.com/xiaomaolu/blunote-updates/releases/tag/v0.1.52",
-  "sha256": "81ca69d63eee0f32c5b0b2eb403e86fbb3d389f3c55c94f6371f5fc5c19321ac",
-  "size": 84343816,
+  "version": "0.1.53",
+  "url": "https://github.com/blunote-app/updates/releases/download/v0.1.53/Blunote-Setup-0.1.53.exe",
+  "manualUrl": "https://github.com/blunote-app/updates/releases/tag/v0.1.53",
+  "sha256": "81a0d0cf1b7db5e9f1f25a5a93d92230948f5767ba50ab3a25864a3d91fcfdf3",
+  "size": 115807368,
   "minUpdaterVersion": "0.1.44",
   "channel": "stable-v2",
-  "notes": "修复 Google Drive 登录授权，并增强桌面版 OAuth 凭据与发布校验。",
+  "notes": "从 v0.1.52 正式升级至 v0.1.53。\n\n- 更新空间启动页：新建本地空间、打开旧空间、恢复备份，以及通过密钥打开云端或共享空间。\n- 优化玻璃背景、状态提示、云端图标与部分常用界面组件。\n- 新增桌面与网页版的笔记双向同步入口，支持断网重试、版本冲突提示与保留本地副本。\n- 改善空间切换、多窗口和旧数据库兼容，保留本地编辑、Google Drive 及原有备份入口。\n\n同步范围为文档、快记、画布的标题、正文、归档与置顶。文件夹、标签、评论、自定义属性与独立附件暂不参与同步；首次连接需选择空云端空间。本地空间仍可独立使用。\n\nv0.1.52 用户可从应用更新入口检查、下载并安装。本次沿用与旧版一致的未签名安装包，Windows 可能显示“未知发布者”；更新器会校验安装包 SHA256 与大小。",
   "highlights": [
-    "修复 Google Drive 登录与备份连接",
-    "内置匹配的桌面 OAuth 配置",
-    "增强凭据隔离和发布前校验"
+    "重新设计空间入口与玻璃界面",
+    "新增桌面与网页笔记双向同步",
+    "改善旧空间兼容与升级保护"
   ]
 }
