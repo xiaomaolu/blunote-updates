@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "android-preview",
   "packageId": "com.blunote.app.preview",
-  "version": "0.6.5",
-  "versionCode": 20,
-  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.5-preview/Blunote-0.6.5-preview.apk",
-  "size": 63707999,
-  "md5": "fc4f052c050714c664323c0b0c500b34",
-  "sha256": "60124ce2244cb5ae5d3c122d510773dd9d1ac5846a9f2df7dd359195192009b7",
+  "version": "0.6.6",
+  "versionCode": 21,
+  "url": "https://github.com/xiaomaolu/blunote-updates/releases/download/android-v0.6.6-preview/Blunote-0.6.6-preview.apk",
+  "size": 74933771,
+  "md5": "4b0c7ff357315b6d988dbaf26b72f9e3",
+  "sha256": "120c5d9df6cdbbd2ea4bb0318f915c21667f2ae2b63c7d10e816c561d7742bf0",
   "certificateSha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
-  "notes": "# Blunote Android 0.6.5 Preview\n\n- App 主题蓝统一为 #4FA4FF，蓝底按钮和选中态使用白字、白色图标，白底蓝字使用相同主蓝。\n- 统一首页分类、导航、日历、弹窗，以及编辑器和画布工具栏的主题色与状态样式。\n- 包含此前本地预览的宽屏侧栏、日历左右布局、快记布局与对象库紧凑排版调整。\n- 保留现有笔记、待办、评论与设备来源功能。\n\n本次为 Android 预览版更新。已完成类型检查、主题与更新流程测试、浏览器交互检查及原生构建；未完成 Android 真机覆盖安装验证。本次不包含独立整合分支的桌面导出 / Web 导入功能。\n\n请覆盖安装，不要卸载旧版，以保留本机草稿。下载后仍需在 Android 系统界面确认安装。\n"
+  "notes": "# Blunote Android 0.6.6 Preview\n\n- 在笔记、快记、日历和对象库之间切换时，导航选中态与内容自然过渡。返回后可继续使用原来的日期、草稿和列表位置。\n- 统一选择菜单和弹窗的尺寸、图标与间距；输入时弹窗会避让软键盘。修复文档待办框和文字换行错位。\n- 改进桌面端文档在安卓上的显示，支持提示块、分栏、图片组和媒体附件。遇到不能安全编辑的格式时，以只读方式打开。\n- 可以创建仅保存在本机的空间，按需配置 WebDAV 同步。连接支持导入的服务端后，可将内容迁移到空的 Blunote 在线空间。\n\n更新时请直接覆盖安装，以保留本机草稿和空间。\n"
 }
